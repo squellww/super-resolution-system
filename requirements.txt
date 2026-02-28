@@ -1,0 +1,46 @@
+# 超高分辨率图像生成系统依赖
+
+# 图像处理
+Pillow>=10.0.0
+opencv-python>=4.8.0
+opencv-contrib-python>=4.8.0
+rawpy>=0.18.0
+imageio>=2.31.0
+
+# 科学计算
+numpy>=1.24.0
+scipy>=1.11.0
+scikit-image>=0.21.0
+
+# 深度学习/感知质量
+lpips>=0.1.4
+torch>=2.0.0
+torchvision>=0.15.0
+
+# Web界面
+streamlit>=1.28.0
+streamlit-cropper>=0.2.0
+streamlit-image-comparison>=0.0.4
+
+# 数据可视化
+plotly>=5.17.0
+matplotlib>=3.7.0
+
+# HTTP客户端
+httpx>=0.25.0
+aiohttp>=3.8.0
+
+# 数据处理
+pandas>=2.0.0
+pydantic>=2.4.0
+
+# 工具库
+tqdm>=4.66.0
+python-dotenv>=1.0.0
+pyyaml>=6.0.1
+
+# 可选：CUDA加速
+# cupy-cuda12x>=12.0.0  # 根据CUDA版本选择
+
+# 可选：云服务SDK
+# volcengine>=1.0.0  # 火山引擎SDK

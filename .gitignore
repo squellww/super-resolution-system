@@ -1,0 +1,44 @@
+# 超分辨率系统 - Git忽略文件
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+venv/
+env/
+ENV/
+
+# 输出文件
+output/
+temp/
+cache/
+*.tiff
+*.tif
+*.jpg
+*.jpeg
+*.png
+!test_input*.jpg
+
+# 日志
+*.log
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# 系统文件
+.DS_Store
+Thumbs.db
+
+# 模型文件（大文件）
+*.pth
+*.onnx
+*.pb
+
+# 配置（包含敏感信息）
+config.py
+.env
